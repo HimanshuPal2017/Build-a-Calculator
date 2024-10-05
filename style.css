@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    overflow: hidden;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
+}
+
+.calculator {
+    width: 400px;
+    height: 530px;
+    border: #717377;
+    background: transparent;
+    border-radius: 16px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+.calculator input {
+    width: 94%;
+    height: 60px;
+    padding: 15px;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: end;
+    color: white;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+
+}
+
+.calculator input::placeholder {
+    color: #ffff;
+}
+
+.container button {
+    width: 60px;
+    height: 60px;
+    margin: 12px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #ffff;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.calculator .equal {
+    background-color: orange;
+}
+
+.calculator .multiplication {
+    color: rgb(34, 212, 34);
+}
+
+.calculator .Addition {
+    color: rgb(34, 212, 34);
+}
+
+.calculator .substraction {
+    color: rgb(34, 212, 34);
+}
+
+.calculator .divide {
+    color: rgb(34, 212, 34);
+}
+
+.main button {
+    color: rgb(34, 212, 34);
+}
